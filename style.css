@@ -150,9 +150,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.article_mobile {
-    display: none;
-}
+
 
 .articleOne {
     display: none;
@@ -738,7 +736,7 @@ h3 {
  
     .articleOne {
         display: flex;
-        height:380px;
+        height:240px;
         width: 580px;
         margin: 10px;
         background-color: white;
@@ -747,19 +745,22 @@ h3 {
     }
     
     .articleTwo {
-        height: 50%;
+        display: block;
+        height: 105px;
         width: 100%;
-        background-image:url(cloneSiteImages/topOneTop.png);
+        background-image:url(cloneSiteImages/MobileImage.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: ;
     }
 
     .articleThree {
-        height: 50%;
-        width: 100%;
-        background-image:url(cloneSiteImages/topOneTop.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        height: 90px;
+        width: 96%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .timer {
