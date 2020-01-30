@@ -150,6 +150,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.article_mobile {
+    display: none;
+}
+
+.articleOne {
+    display: none;
+}
+
+.articleTwo {
+    display: none;
+}
+
 .timer {
     display: flex;
     width: fit-content;
@@ -705,6 +717,64 @@ h3 {
     }
 
     .youTube {
+        display: none;
+    }
+
+    .article {
+        display: none;
+    }
+
+    .topBanner {
+        display: flex;
+        height:420px;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url(cloneSiteImages/volcano.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-wrap: wrap;
+    }
+ 
+    .articleOne {
+        display: flex;
+        height:380px;
+        width: 580px;
+        margin: 10px;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+    
+    .articleTwo {
+        height: 50%;
+        width: 100%;
+        background-image:url(cloneSiteImages/topOneTop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .articleThree {
+        height: 50%;
+        width: 100%;
+        background-image:url(cloneSiteImages/topOneTop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .timer {
+        display: none;
+    }
+
+    .time {
+        display: none;
+    }
+
+    .author {
+        display: none;
+    }
+
+    .readMore {
         display: none;
     }
 }
