@@ -778,4 +778,52 @@ h3 {
     .readMore {
         display: none;
     }
+
+    .midOne {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .midTwo {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .midThree {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .botOne {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .botTwo {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .botThree {
+        display: flex;
+        height:240px;
+        width:80vw;
+        margin: 10px;
+        flex-direction: column;
+    }
 }
